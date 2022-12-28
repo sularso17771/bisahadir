@@ -1121,10 +1121,12 @@
 			}
 		}
 
-		function copyText() {
+		function copyText() 
+		{
 			var name = $("#name").val();
 			var url  = $("#undangan").val();
-			if( name === '' || url === '')
+
+			if( url === '')
 			{
 				showModalWarning();
 			} else {
