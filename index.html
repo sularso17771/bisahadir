@@ -1110,8 +1110,9 @@
 		function sendWa()
 		{
 			var phone		= $("#phone").val();
+			var name		= $("#name").val();
 			var url_share	= $("#undangan").val();
-			var url 		= "https://wa.me/"+phone+'?text='+url_share;
+			var url 		= "https://wa.me/"+phone+'?text='+url_share+'?name='+name;
 
 			if(phone === '' || url_share === '')
 			{
