@@ -1292,7 +1292,7 @@
 														</script>
 														<div id="audio-container" class="audio-box">
 															<audio id="song" loop>
-																<source src="https://senengbareng.com/wp-content/uploads/2022/05/X2Download-mp3cut.net-3.mp3"
+																<source src="song.mp3"
 																type="audio/mp3">
 															</audio>
 															<div class="elementor-icon-wrapper" id="unmute-sound" style="display: none;">
@@ -1653,6 +1653,14 @@
                         }
                     }) 
                 }
+
+	            jQuery(document).ready(function() {
+	                const queryString = window.location.search;
+	                const urlParams = new URLSearchParams(queryString);
+	                const name      = urlParams.get('name')
+	                jQuery("#namatamu").html(name)
+	                jQuery("#author").val(name)
+	            });
 
                 // function dari jquery untuk menampilkan modal dalam menambahkan comments baru
                 jQuery('#submit-760').on('click',function (e) {
