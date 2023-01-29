@@ -1112,7 +1112,19 @@
 			var phone		= $("#phone").val();
 			var name		= $("#name").val();
 			var url_share	= $("#undangan").val();
-			var url 		= "https://wa.me/"+phone+'?text='+url_share+'?name='+name;
+      var text    = "Assalamu'alaikum Wr. Wb %0a";
+          text    += "Assalamu'alaikum Wr. Wb %0a";
+          text    += "Bismillahirahmanirrahim. %0a";
+          text    += "Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i : %0a";
+          text    += name+'%0a';
+          text    += "untuk menghadiri acara kami. %0a";
+          text    += "Berikut link undangan kami, untuk info lengkap dari acara bisa kunjungi : %0a";
+          text    += url_share+'?name='+name+'%0a';
+          text    += "Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu. %0a";
+          text    += "Mohon maaf perihal undangan hanya di bagikan melalui pesan ini.";
+          text    += "Dan karena suasana masih pandemi, diharapkan untuk tetap menggunakan masker dan datang pada jam yang telah ditentukan.";
+          text    += "Terima kasih banyak atas perhatiannya.";
+			var url 		= "https://wa.me/"+phone+'?text='+text;
 
 			if(phone === '' || url_share === '')
 			{
