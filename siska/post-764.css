@@ -1586,7 +1586,7 @@
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   background-color: #ffdec7;
-  background-image: url("BG-UWG-27-1.jpg");
+  background-image: url("BG-UWG-27-1.jpeg");
   background-position: center center;
   background-size: cover;
 }
@@ -2279,7 +2279,7 @@ body.rtl .elementor-764 .elementor-element.elementor-element-5d2caa6c {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("BG-UWG-27-1.jpg");
+  background-image: url("BG-UWG-27-1.jpeg");
   background-position: center center;
   background-size: cover;
 }
@@ -4323,16 +4323,16 @@ body.rtl .elementor-764 .elementor-element.elementor-element-5d2caa6c {
   font-style: normal;
   font-weight: normal;
   font-display: auto;
-  src: url("https://senengbareng.com/wp-content/uploads/2022/10/HeyBetty-Regular.eot");
-  src: url("https://senengbareng.com/wp-content/uploads/2022/10/HeyBetty-Regular.eot?#iefix")
+  src: url("font/HeyBetty-Regular.eot");
+  src: url("font/HeyBetty-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("https://senengbareng.com/wp-content/uploads/2022/10/HeyBetty-Regular.woff2")
+    url("font/HeyBetty-Regular.woff2")
       format("woff2"),
-    url("https://senengbareng.com/wp-content/uploads/2022/10/HeyBetty-Regular.woff")
+    url("font/HeyBetty-Regular.woff")
       format("woff"),
-    url("https://senengbareng.com/wp-content/uploads/2022/10/HeyBetty-Regular.ttf")
+    url("font/HeyBetty-Regular.ttf")
       format("truetype"),
-    url("https://senengbareng.com/wp-content/uploads/2022/10/HeyBetty-Regular.svg#Costom6")
+    url("font/HeyBetty-Regular.svg#Costom6")
       format("svg");
 }
 /* End Custom Fonts CSS */
