@@ -1,0 +1,7 @@
+Mirror in progress since Thu, 23 Feb 2023 16:30:46 .. please wait!
+winhttrack https://kumengundangmu.com/tema-03-ok/?to=Nama%20Tamu -O "/Users/bs/theme/master_wedding/nunung4" -Y -P none:8080 -%v none none 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=15028
+UID=501
+GID=501
+START=1677144646

@@ -1,0 +1,15 @@
+HTTrack3.49-2 launched on Thu, 23 Feb 2023 16:35:17 at https://weddingkita.net/update-01/?to=Bp+H+Rahmat+S.pd none none
+(winhttrack https://weddingkita.net/update-01/?to=Bp+H+Rahmat+S.pd -O "/Users/bs/theme/master_wedding/nunung5" -Y -P none:8080 -%v none none )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:35:22	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link none/robots.txt (from primary/primary)
+16:35:22	Warning: 	Retry after error -5 (Unable to get server's address: nodename nor servname provided, or not known) at link none/ (from primary/primary)
+16:35:24	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link none/ (from primary/primary)
+16:35:24	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link none/ (from primary/primary)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 seconds : 11 links scanned, 5 files written (521121 bytes overall) [87603 bytes received at 12514 bytes/sec], 523137 bytes transferred using HTTP compression in 7 files, ratio 15%, 1.6 requests per connection
+(2 errors, 2 warnings, 0 messages)

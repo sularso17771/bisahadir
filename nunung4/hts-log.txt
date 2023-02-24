@@ -1,0 +1,26 @@
+HTTrack3.49-2 launched on Thu, 23 Feb 2023 16:30:46 at https://kumengundangmu.com/tema-03-ok/?to=Nama%20Tamu none none
+(winhttrack https://kumengundangmu.com/tema-03-ok/?to=Nama%20Tamu -O "/Users/bs/theme/master_wedding/nunung4" -Y -P none:8080 -%v none none )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:30:55	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link none/robots.txt (from primary/primary)
+16:30:55	Warning: 	Retry after error -5 (Unable to get server's address: nodename nor servname provided, or not known) at link none/ (from primary/primary)
+16:30:55	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link s.w.org/robots.txt (from https://kumengundangmu.com/tema-03-ok/?to=Nama%20Tamu)
+16:30:55	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link s.w.org/ (from https://kumengundangmu.com/tema-03-ok/?to=Nama%20Tamu)
+16:32:00	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link none/ (from primary/primary)
+16:32:09	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link s.w.org/ (from https://kumengundangmu.com/tema-03-ok/?to=Nama%20Tamu)
+16:34:41	Error: 	"Too Many Requests" (429) at link https://www.instagram.com/videoundangandigital/?hl=zh-hk (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Too Many Requests" (429) at link https://www.instagram.com/videoundangandigital/?hl=en-gb (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Too Many Requests" (429) at link https://www.instagram.com/videoundangandigital/?hl=sw-ke (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Too Many Requests" (429) at link https://www.instagram.com/videoundangandigital/?hl=ha-ng (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Too Many Requests" (429) at link https://www.instagram.com/videoundangandigital/?hl=am-et (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Too Many Requests" (429) at link https://www.instagram.com/videoundangandigital/?hl=om-et (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Not Found" (404) at link https://www.instagram.com/videoundangandigital/android-app://com.instagram.android/https/instagram.com/_u/videoundangandigital/ (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Not Found" (404) at link https://www.instagram.com/videoundangandigital/theaustralian.com.au (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Not Found" (404) at link https://www.instagram.com/videoundangandigital/news.com.au (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Not Found" (404) at link https://www.instagram.com/videoundangandigital/kollosche.com.au (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:41	Error: 	"Not Found" (404) at link https://www.instagram.com/videoundangandigital/awstrack.me (from https://www.instagram.com/videoundangandigital/?hl=id)
+16:34:42	Error: 	"Forbidden" (403) at link https://www.google.com/maps/api/js/reviews?key (from https://www.google.co.id/maps/place/Abc/@-4.8410579,119.5456017,17z/data=!4m5!3m4!1s0x2dbe4fb0db72374f:0x5bd4b61f3ddf455b!8m2!3d-4.8410632!4d119.5477904?hl=en&shorturl=1)

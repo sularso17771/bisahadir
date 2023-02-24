@@ -1,0 +1,44 @@
+HTTrack3.49-2 launched on Thu, 23 Feb 2023 16:18:25 at https://inveet.id/themes/preview/sparkling-flowers none none
+(winhttrack https://inveet.id/themes/preview/sparkling-flowers -O "/Users/bs/theme/master_wedding/nunung2" -Y -P nono:8080 -%v none none )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:18:54	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link none/robots.txt (from primary/primary)
+16:18:54	Warning: 	Retry after error -5 (Unable to get server's address: nodename nor servname provided, or not known) at link none/ (from primary/primary)
+16:18:54	Error: 	"Forbidden" (403) at link https://inveet-assets.s3.ap-southeast-1.amazonaws.com/wedding/166029250162f60d95b0da5-F8b6jwx2HMQToJH.jpg (from https://inveet.id/themes/preview/sparkling-flowers)
+16:18:55	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://inveet.id/themes/preview/sparkling-flowers)
+16:19:23	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link none/ (from primary/primary)
+16:19:25	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/robots.txt (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxP.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eL.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owps.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwM.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/googlesansdisplay/v13/ea8FacM9Wef3EJPWRrHjgE4B6CnlZxHVDv79pA.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:19:25	Warning: 	Link https://zoom.us/join not scanned (follow robots meta tag)
+16:20:15	Error: 	"Not Found" (404) at link https://zoom.us/POST (from https://zoom.us/)
+16:20:15	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link none/ (from primary/primary)
+16:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxP.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eL.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owps.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwM.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link fonts.gstatic.com/s/googlesansdisplay/v13/ea8FacM9Wef3EJPWRrHjgE4B6CnlZxHVDv79pA.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:22:33	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:22:33	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxP.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:22:33	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:22:33	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc9.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:22:33	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eL.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:22:33	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owps.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:22:33	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwM.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+16:22:33	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link fonts.gstatic.com/s/googlesansdisplay/v13/ea8FacM9Wef3EJPWRrHjgE4B6CnlZxHVDv79pA.ttf (from https://www.google.com/maps/dir/?api=1&destination=-6.224390999999999,106.6142835&dir_action=navigate)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 10 seconds : 206 links scanned, 168 files written (20959923 bytes overall) [9719342 bytes received at 31352 bytes/sec], 16017047 bytes transferred using HTTP compression in 165 files, ratio 25%, 2.4 requests per connection
+(14 errors, 19 warnings, 0 messages)
