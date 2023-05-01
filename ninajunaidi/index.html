@@ -66,21 +66,22 @@
 		  <div class="elementor-container elementor-column-gap-no">
 		    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-805f3a1 wdp-sticky-section-no" data-id="805f3a1" data-element_type="column">
 		      <div class="elementor-widget-wrap elementor-element-populated">
-		        <section class="elementor-section elementor-inner-section elementor-element elementor-element-38d1417e elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no" data-id="38d1417e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3785,&quot;url&quot;:&quot;image/7.jpeg&quot;},{&quot;id&quot;:3784,&quot;url&quot;:&quot;image/6.jpeg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+		        <section class="elementor-section elementor-inner-section elementor-element elementor-element-38d1417e elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no" data-id="38d1417e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3785,&quot;url&quot;:&quot;image/3.jpg&quot;},{&quot;id&quot;:3785,&quot;url&quot;:&quot;image/4.jpg&quot;},{&quot;id&quot;:3784,&quot;url&quot;:&quot;image/5.jpg&quot;},{&quot;id&quot;:3784,&quot;url&quot;:&quot;image/6.jpg&quot;},{&quot;id&quot;:3784,&quot;url&quot;:&quot;image/7.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
 		          <div class="elementor-background-overlay"></div>
 		          <div class="elementor-container elementor-column-gap-default">
 		            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-b5bdec1 wdp-sticky-section-no" data-id="b5bdec1" data-element_type="column">
 		              <div class="elementor-widget-wrap elementor-element-populated">
 		                <div class="elementor-element elementor-element-63606245 wdp-sticky-section-no elementor-widget elementor-widget-weddingpress-wellcome" data-id="63606245" data-element_type="widget" data-widget_type="weddingpress-wellcome.default">
 		                  <div class="elementor-widget-container">
-		                    <div class="modalx" data-sampul='image/7.jpeg'>
+		                    <div class="modalx">
+		                      <img src="image/10.jpg" style="position: absolute;top: 0;object-fit: cover;height: 100%;"/>
 		                      <div class="overlayy"></div>
 		                      <div class="content-modalx">
 		                        <div class="info_modalx">
 		                          <div class="elementor-image img"></div>
 		                          <div class="wdp-txt-the-wedding" style="width:auto !important">You are invited to our wedding </div>
 		                          <div class="wdp-mempelai" style="width: auto !important;">Nina &amp; Junaidi </div>
-		                          <div class="wdp-tgl" style="width: auto !important;">09.05.23 </div>
+		                          <div class="wdp-tgl" style="width: auto !important;">14.05.23 </div>
 		                          <div class="wdp-dear" style="width: auto !important;">Kepada :</div>
 		                          <div class="wdp-name namatamu" style="width: auto !important;"></div>
 		                          <div class="wdp-button-wrapper" id="wdp-button-wrapper">
@@ -93,6 +94,13 @@
 		                      </div>
 		                    </div>
 		                    <script>
+	                            jQuery(document).ready(function() {
+	                                const queryString = window.location.search;
+	                                const urlParams = new URLSearchParams(queryString);
+	                                const name      = urlParams.get('name')
+	                                jQuery(".namatamu").html(name)
+	                                jQuery("#author").val(name)
+	                            });
 		                      const sampul = jQuery('.modalx').data('sampul');
 		                      jQuery('.modalx').css('background-image', 'url(' + sampul + ')');
 		                      jQuery('body').css('overflow', 'hidden');
@@ -139,7 +147,7 @@
 		                  <div class="elementor-widget-container">
 		                    <div class="wpkoi-elements-countdown-wrapper">
 		                      <div class="wpkoi-elements-countdown-container wpkoi-elements-countdown-label-block ">
-		                        <ul id="wpkoi-elements-countdown-5ae43f0f" class="wpkoi-elements-countdown-items" data-date="Apr 30 2023 10:00:00">
+		                        <ul id="wpkoi-elements-countdown-5ae43f0f" class="wpkoi-elements-countdown-items" data-date="May 14 2023 18:00:00">
 		                          <li class="wpkoi-elements-countdown-item">
 		                            <div class="wpkoi-elements-countdown-days">
 		                              <span data-days class="wpkoi-elements-countdown-digits">00</span>
@@ -218,7 +226,7 @@
 		                </div>
 		                <div class="elementor-element elementor-element-25120a43 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading" data-id="25120a43" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
 		                  <div class="elementor-widget-container">
-		                    <span class="elementor-heading-title elementor-size-default">Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Junaidilah) bagi kaum yang berpikir.</span>
+		                    <span class="elementor-heading-title elementor-size-default">Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (Kebesaran Allah SWT) bagi kaum yang berpikir.</span>
 		                  </div>
 		                </div>
 		                <div class="elementor-element elementor-element-639beac9 wdp-sticky-section-no elementor-widget elementor-widget-spacer" data-id="639beac9" data-element_type="widget" data-widget_type="spacer.default">
@@ -230,7 +238,7 @@
 		                </div>
 		                <section class="elementor-section elementor-inner-section elementor-element elementor-element-3b78fbe0 animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no elementor-invisible" data-id="3b78fbe0" data-element_type="section" data-settings="{&quot;animation_mobile&quot;:&quot;fadeInLeft&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
 		                  <div class="elementor-container elementor-column-gap-default">
-		                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-255ab150 wdp-sticky-section-no" data-id="255ab150" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3785,&quot;url&quot;:&quot;image/1.jpeg&quot;},{&quot;id&quot;:3786,&quot;url&quot;:&quot;image/5.jpeg&quot;}],&quot;background_slideshow_slide_duration&quot;:500,&quot;background_slideshow_slide_transition&quot;:&quot;slide_left&quot;,&quot;background_slideshow_transition_duration&quot;:12000,&quot;animation_mobile&quot;:&quot;none&quot;,&quot;background_slideshow_loop&quot;:&quot;yes&quot;}">
+		                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-255ab150 wdp-sticky-section-no" data-id="255ab150" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3785,&quot;url&quot;:&quot;image/1.jpg&quot;},{&quot;id&quot;:3786,&quot;url&quot;:&quot;image/2.jpg&quot;}],&quot;background_slideshow_slide_duration&quot;:500,&quot;background_slideshow_slide_transition&quot;:&quot;slide_left&quot;,&quot;background_slideshow_transition_duration&quot;:12000,&quot;animation_mobile&quot;:&quot;none&quot;,&quot;background_slideshow_loop&quot;:&quot;yes&quot;}">
 		                      <div class="elementor-widget-wrap elementor-element-populated">
 		                        <div class="elementor-element elementor-element-2e18946d wdp-sticky-section-no elementor-widget elementor-widget-spacer" data-id="2e18946d" data-element_type="widget" data-widget_type="spacer.default">
 		                          <div class="elementor-widget-container">
@@ -271,7 +279,7 @@
 		                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-46485b9c wdp-sticky-section-no" data-id="46485b9c" data-element_type="column">
 		                      <div class="elementor-widget-wrap"></div>
 		                    </div>
-		                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-36dfa641 wdp-sticky-section-no" data-id="36dfa641" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3787,&quot;url&quot;:&quot;image/3.jpeg&quot;},{&quot;id&quot;:3788,&quot;url&quot;:&quot;image/2.jpeg&quot;}],&quot;background_slideshow_slide_duration&quot;:500,&quot;background_slideshow_slide_transition&quot;:&quot;slide_left&quot;,&quot;background_slideshow_transition_duration&quot;:12000,&quot;background_slideshow_loop&quot;:&quot;yes&quot;}">
+		                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-36dfa641 wdp-sticky-section-no" data-id="36dfa641" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3787,&quot;url&quot;:&quot;image/3.jpg&quot;},{&quot;id&quot;:3788,&quot;url&quot;:&quot;image/5.jpg&quot;}],&quot;background_slideshow_slide_duration&quot;:500,&quot;background_slideshow_slide_transition&quot;:&quot;slide_left&quot;,&quot;background_slideshow_transition_duration&quot;:12000,&quot;background_slideshow_loop&quot;:&quot;yes&quot;}">
 		                      <div class="elementor-widget-wrap elementor-element-populated">
 		                        <div class="elementor-element elementor-element-1f3fc38 wdp-sticky-section-no elementor-widget elementor-widget-spacer" data-id="1f3fc38" data-element_type="widget" data-widget_type="spacer.default">
 		                          <div class="elementor-widget-container">
@@ -301,7 +309,7 @@
 		                </div>
 		                <div class="elementor-element elementor-element-1a21e3d6 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading" data-id="1a21e3d6" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
 		                  <div class="elementor-widget-container">
-		                    <span class="elementor-heading-title elementor-size-default">Putra Pertama dari <br>Bapak Ahmad Zarkasih & Ibu Robiatul Adawiyah </span>
+		                    <span class="elementor-heading-title elementor-size-default">Putra Pertama dari <br>Bapak Ahmad Zarkasih (Alm) & Ibu Robiatul Adawiyah </span>
 		                  </div>
 		                </div>
 		                <div class="elementor-element elementor-element-5b24809e wdp-sticky-section-no elementor-widget elementor-widget-spacer" data-id="5b24809e" data-element_type="widget" data-widget_type="spacer.default">
@@ -366,7 +374,7 @@
 		                </section>
 		                <div class="elementor-element elementor-element-42a3f5fc animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading" data-id="42a3f5fc" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
 		                  <div class="elementor-widget-container">
-		                    <span class="elementor-heading-title elementor-size-default">Dengan segala kerendahan hati kami bermaksud ingin mengundang Bapak/Ibu/Saudara/i sekalian guna hadir didalam acara pernikahan kami yang akan diselenggarakan pada :</span>
+		                    <span class="elementor-heading-title elementor-size-default">Dengan segala kerendahan hati kami bermaksud mengundang Bapak/Ibu/Saudara/i sekalian hadir di acara pernikahan kami yang akan diselenggarakan pada :</span>
 		                  </div>
 		                </div>
 		                <div class="elementor-element elementor-element-541ea802 elementor-absolute animated-slow e-transform wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading" data-id="541ea802" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:5,&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:270,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:270,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
@@ -389,11 +397,7 @@
 		                    </div>
 		                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6ea91a18 wdp-sticky-section-no" data-id="6ea91a18" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 		                      <div class="elementor-widget-wrap elementor-element-populated">
-		                        <div class="elementor-element elementor-element-56011531 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading" data-id="56011531" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
-		                          <div class="elementor-widget-container">
-		                            <span class="elementor-heading-title elementor-size-default">Telah dilaksanakan </span>
-		                          </div>
-		                        </div>
+		                        
 		                        <div class="elementor-element elementor-element-4546641c animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading" data-id="4546641c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;,&quot;_animation_mobile&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
 		                          <div class="elementor-widget-container">
 		                            <span class="elementor-heading-title elementor-size-default">SELASA</span>
@@ -634,7 +638,7 @@
 		                </div>
 		                <div class="elementor-element elementor-element-4020f373 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading" data-id="4020f373" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;zoomIn&quot;,&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
 		                  <div class="elementor-widget-container">
-		                    <span class="elementor-heading-title elementor-size-default">Bagi bapak/ibu/saudara/i yang ingin mengirimkan hadiah pernikahan dapat melalui virtual account atau e-wallet di bawah ini</span>
+		                    <span class="elementor-heading-title elementor-size-default">Do'a Restu Anda merupakan karunia yang sangat berarti bagi Kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</span>
 		                  </div>
 		                </div>
 		                <section class="elementor-section elementor-inner-section elementor-element elementor-element-532f156b elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no elementor-invisible" data-id="532f156b" data-element_type="section" data-settings="{&quot;animation_mobile&quot;:&quot;zoomIn&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
@@ -644,7 +648,6 @@
 		                        <div class="elementor-element elementor-element-3fa3df97 wdp-sticky-section-no elementor-widget elementor-widget-image" data-id="3fa3df97" data-element_type="widget" data-widget_type="image.default">
 		                          <div class="elementor-widget-container">
 		                            <style>
-		                              /*! elementor - v3.12.1 - 02-04-2023 */
 		                              .elementor-widget-image {
 		                                text-align: center
 		                              }
@@ -921,27 +924,25 @@
 		                    <div class='wdp-wrap-link'>
 		                      <a id='wdp-link-4736' class='wdp-link wdp-icon-link wdp-icon-link-true auto-load-true' href='https://the.gandilova.com/sb-l-4/?post_id=4736&amp;comments=0&amp;get=30&amp;order=DESC' title='0 Ucapan'>
 		                        <i aria-hidden='true' class='fas fa-dove'></i>
-		                        <span>0</span> Ucapan </a>
+		                        <span class="total_ucapan">0</span> Ucapan </a> 
 		                    </div>
-		                    <!--.wdp-wrap-link-->
-		                    <div id='wdp-wrap-commnent-4736' class='wdp-wrap-comments' style='display:none;'>
+		                    <div id='wdp-wrap-commnent-4736' class='wdp-wrap-comments'>
 		                      <div id='wdp-wrap-form-4736' class='wdp-wrap-form wdp-clearfix'>
 		                        <div id='wdp-container-form-4736' class='wdp-container-form wdp-no-login'>
 		                          <div id='respond-4736' class='respond wdp-clearfix'>
-		                            <form action='https://the.gandilova.com/wp-comments-post.php' method='post' id='commentform-4736'>
+		                            <form action='#' method='post'>
 		                              <p class="comment-form-author wdp-field-1">
 		                                <input id="author" name="author" type="text" aria-required="true" class="wdp-input" placeholder="Nama" />
 		                                <span class="wdp-required">*</span>
 		                                <span class="wdp-error-info wdp-error-info-name">Mohon maaf! Khusus untuk tamu undangan</span>
 		                              </p>
 		                              <div class="wdp-wrap-textarea">
-		                                <textarea id="wdp-textarea-4736" class="waci_comment wdp-textarea autosize-textarea" name="comment" aria-required="true" placeholder="Ucapan" rows="3"></textarea>
+		                                <textarea id="comment" class="waci_comment wdp-textarea autosize-textarea" name="comment" aria-required="true" placeholder="Ucapan" rows="3"></textarea>
 		                                <span class="wdp-required">*</span>
 		                                <span class="wdp-error-info wdp-error-info-text">2 characters minimum.</span>
 		                              </div>
-		                              <div class="wdp-wrap-select">
-		                                <select class="waci_comment wdp-select" name="konfirmasi">
-		                                  <option value="" disabled selected>Konfirmasi Kehadiran</option>
+		                              <div class="wdp-wrap-select" style="display:block">
+		                                <select class="waci_comment wdp-select" name="konfirmasi" id="konfirmasi">
 		                                  <option value="Hadir">Hadir</option>
 		                                  <option value="Tidak hadir">Tidak hadir</option>
 		                                </select>
@@ -950,15 +951,7 @@
 		                              </div>
 		                              <div class='wdp-wrap-submit wdp-clearfix'>
 		                                <p class='form-submit'>
-		                                  <span class="wdp-hide">Do not change these fields following</span>
-		                                  <input type="text" class="wdp-hide" name="name" value="username">
-		                                  <input type="text" class="wdp-hide" name="nombre" value="">
-		                                  <input type="text" class="wdp-hide" name="form-wdp" value="">
-		                                  <input type="button" class="wdp-form-btn wdp-cancel-btn" value="Batal">
 		                                  <input name='submit' id='submit-4736' value='Kirim' type='submit' />
-		                                  <input type='hidden' name='commentpress' value='true' />
-		                                  <input type='hidden' name='comment_post_ID' value='4736' id='comment_post_ID' />
-		                                  <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 		                                </p>
 		                              </div>
 		                            </form>
@@ -968,7 +961,7 @@
 		                      </div>
 		                      <!--.wdp-wrap-form-->
 		                      <div id='wdp-comment-status-4736' class='wdp-comment-status'></div>
-		                      <ul id='wdp-container-comment-4736' class='wdp-container-comments wdp-order-DESC ' data-order='DESC'></ul>
+		                      <ul id='wdp-container-comment-4736' class='wdp-container-comments wdp-order-DESC' style="display:block !important;" data-order='DESC'></ul>
 		                      <div class='wdp-holder-4736 wdp-holder'></div>
 		                    </div>
 		                    <!--.wdp-wrap-comments-->
@@ -1084,7 +1077,7 @@
 		  <div class="elementor-container elementor-column-gap-no">
 		    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7b18a83 wdp-sticky-section-no" data-id="7b18a83" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 		      <div class="elementor-widget-wrap elementor-element-populated">
-		        <section class="elementor-section elementor-inner-section elementor-element elementor-element-d3f9c29 elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no" data-id="d3f9c29" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3795,&quot;url&quot;:&quot;image/1.jpeg&quot;},{&quot;id&quot;:3787,&quot;url&quot;:&quot;image/3.jpeg&quot;}],&quot;background_slideshow_slide_duration&quot;:500,&quot;background_slideshow_slide_transition&quot;:&quot;slide_left&quot;,&quot;background_slideshow_transition_duration&quot;:12000,&quot;background_slideshow_loop&quot;:&quot;yes&quot;}">
+		        <section class="elementor-section elementor-inner-section elementor-element elementor-element-d3f9c29 elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no" data-id="d3f9c29" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:3795,&quot;url&quot;:&quot;image/6.jpg&quot;},{&quot;id&quot;:3795,&quot;url&quot;:&quot;image/8.jpg&quot;},{&quot;id&quot;:3795,&quot;url&quot;:&quot;image/9.jpg&quot;},{&quot;id&quot;:3787,&quot;url&quot;:&quot;image/7.jpg&quot;}],&quot;background_slideshow_slide_duration&quot;:500,&quot;background_slideshow_slide_transition&quot;:&quot;slide_left&quot;,&quot;background_slideshow_transition_duration&quot;:12000,&quot;background_slideshow_loop&quot;:&quot;yes&quot;}">
 		          <div class="elementor-background-overlay"></div>
 		          <div class="elementor-container elementor-column-gap-no">
 		            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-426b146b wdp-sticky-section-no" data-id="426b146b" data-element_type="column">
@@ -1259,7 +1252,7 @@
 		<script id='wdp_js_script-js-extra'>
 			var WDP_WP = {"ajaxurl":"https:\/\/the.gandilova.com\/wp-admin\/admin-ajax.php","wdpNonce":"d1f2180cb5","jpages":"true","jPagesNum":"5","textCounter":"true","textCounterNum":"500","widthWrap":"","autoLoad":"true","thanksComment":"Thanks for your comment!","thanksReplyComment":"Thanks for answering the comment!","duplicateComment":"You might have left one of the fields blank, or duplicate comments","accept":"Accept","cancel":"Cancel","reply":"Reply","textWriteComment":"Ucapan","classPopularComment":"wdp-popular-comment","textToDisplay":"Text to display","textCharacteresMin":"2 characters minimum","textNavNext":"Next","textNavPrev":"Previous","textMsgDeleteComment":"Do you want delete this comment?","textLoadMore":"Load more"};
 		</script>
-		<script src='https://the.gandilova.com/wp-content/plugins/weddingpress/addons/comment-kit//js/wdp_script.js?ver=2.7.6' id='wdp_js_script-js'></script>
+		<!-- <script src='https://the.gandilova.com/wp-content/plugins/weddingpress/addons/comment-kit//js/wdp_script.js?ver=2.7.6' id='wdp_js_script-js'></script> -->
 		<script src='https://the.gandilova.com/wp-content/plugins/weddingpress/addons/comment-kit//js/libs/jquery.jPages.min.js?ver=0.7' id='wdp_jPages-js'></script>
 		<script src='https://the.gandilova.com/wp-content/plugins/weddingpress/addons/comment-kit//js/libs/jquery.textareaCounter.js?ver=2.0' id='wdp_textCounter-js'></script>
 		<script src='https://the.gandilova.com/wp-content/plugins/weddingpress/addons/comment-kit//js/libs/jquery.placeholder.min.js?ver=2.0.7' id='wdp_placeholder-js'></script>
@@ -1276,7 +1269,7 @@
 		<script src='https://the.gandilova.com/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
 		<script id='wp-i18n-js-after'>
 			wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-		</script>
+		</script> 
 		<script id='elementor-pro-frontend-js-before'>
 			var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/the.gandilova.com\/wp-admin\/admin-ajax.php","nonce":"9f31079c42","urls":{"assets":"https:\/\/the.gandilova.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/the.gandilova.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"id_ID","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/the.gandilova.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 		</script>
@@ -1295,6 +1288,101 @@
 		</script>
 		<script src='https://the.gandilova.com/wp-content/plugins/weddingpress/assets/js/wdp.min.js?ver=3.0.12' id='weddingpress-wdp-js'></script>
 		<script src='https://the.gandilova.com/wp-content/plugins/weddingpress/assets/js/guest-form.js?ver=3.0.12' id='kirim-kit-js'></script>
+        <script id='elementor-frontend-js-before' type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>		
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+        <script type="text/javascript">
+                var count = 0;  
+                const firebaseConfig = {
+                    apiKey: "AIzaSyAdU7cz5Al3daZ5-BPWtHClEF4gct7V-bg",
+                    authDomain: "wedding-cf115.firebaseapp.com",
+                    databaseURL: "https://wedding-cf115-default-rtdb.asia-southeast1.firebasedatabase.app",
+                    projectId: "wedding-cf115",
+                    storageBucket: "wedding-cf115.appspot.com",
+                    messagingSenderId: "117769304166",
+                    appId: "1:117769304166:web:076515774921b6fef815a7",
+                    measurementId: "G-N02Z4HJHDK"
+                };
+
+                firebase.initializeApp(firebaseConfig);
+
+                var tableShowMessage = function (key, values) {
+                    var table = jQuery('#wdp-container-comment-4736');
+                    var dibuat = (values.dibuat ? moment(values.dibuat).fromNow() : '');
+                    var html = "";
+                        html += '<li class="comment even thread-even depth-1 wdp-item-comment" id='+key+'>';
+                        html += '<div class="wdp-comment wdp-clearfix">';
+                        html += '<div class="wdp-comment-avatar">';
+                        html += '<img src="https://www.seekpng.com/png/detail/428-4287240_no-avatar-user-circle-icon-png.png" width="30">';
+                        html += '</div>';
+                        html += '<div class="wdp-comment-content">';
+                        html += '<div class="wdp-comment-info">';
+                        html += '<a class="wdp-commenter-name" title="asd">'+values.author+'</a>';
+                        html += '<span class="wdp-post-author" style="background:#65a3b9"> '+values.konfirmasi+' </span>';
+                        html += '<span class="wdp-post-author" style="background:#65a3b9"><i class="far fa-clock"></i> '+dibuat+' </span>';
+                        html += '</div>';
+                        html += '<div class="wdp-comment-text">';
+                        html += '<p>'+values.comments+'</p>';
+                        html += '</div>';
+                        html += '</div>';
+                        html += '</div>';
+                        html += '</li>';
+
+                    table.html(table.html() + html);
+                };
+
+                refresh()
+
+                function refresh()
+                {
+                    firebase.database().ref('ninajunaidi').orderByKey().limitToLast(30).once('value').then(function(snapshot){
+                        let results = [];
+                        let res     = [];
+                        snapshot.forEach(function(child) {
+                            count++
+                            jQuery("#text_count").text(count)
+                            results.push({ key: child.key, value: child.val() });
+                            res = [...results].reverse()
+                        })
+
+                        // jQuery('#wdp-container-comment-4736').html('');
+		                jQuery(".total_ucapan").html(res.length)     
+		                jQuery('#wdp-container-comment-4736').html('');                   
+                        for (var i = 0; i < res.length; i++) {
+                            tableShowMessage(res[i].key,res[i].value)
+                        }
+                    }) 
+                }
+
+                // function dari jquery untuk menampilkan modal dalam menambahkan comments baru
+                jQuery('#submit-4736').on('click',function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    var author      = jQuery('#author');
+                    var comments    = jQuery('#comment');
+                    var konfirmasi  = jQuery('#konfirmasi');
+
+                    var data = JSON.parse( JSON.stringify({
+                        author: author.val(),
+                        comments: comments.val(),
+                        konfirmasi: konfirmasi.val(),
+                        dibuat: firebase.database.ServerValue.TIMESTAMP
+                    }))             
+
+                    // simpan data baru kedalam database
+                    var newMessageKey = firebase.database().ref().child('ninajunaidi').push(data, function(error) {
+                        if (error) {
+                            alert('comments tidak dapat disimpan!');
+                        } else {
+                            author.val('');
+                            comments.val('');
+                            konfirmasi.val('');
+                            refresh()
+                        }
+                    });
+                    return false;
+                });             
+        </script>
 </body>
 
 </html>

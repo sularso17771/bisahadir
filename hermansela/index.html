@@ -684,13 +684,12 @@
                                                 <span class=" wdp-error-info-name" style="color: #FFF;font-family: inherit;font-size: 0.7em;font-weight:bold;text-align: center;background:#C85951;border-radius: 3px;height: 20px;padding: 1px 10px 0 10px;line-height: 1.6;">Mohon maaf! Khusus untuk tamu undangan</span>
                                               </p>
                                               <div class="wdp-wrap-textarea">
-                                                <textarea id="wdp-textarea-17775" class="waci_comment wdp-textarea autosize-textarea" name="comment" aria-required="true" placeholder="Tulis Ucapan & Doa" rows="3"></textarea>
+                                                <textarea id="comment" class="waci_comment wdp-textarea autosize-textarea" name="comment" id="comment" aria-required="true" placeholder="Tulis Ucapan & Doa" rows="3"></textarea>
                                                 <span class="wdp-required">*</span>
                                                 <span class="wdp-error-info wdp-error-info-text">Minimal 2 karakter.</span>
                                               </div>
                                               <div class="wdp-wrap-select">
                                                 <select class="waci_comment wdp-select" name="konfirmasi" id="konfirmasi">
-                                                  <option value="" disabled selected>Konfirmasi Kehadiran</option>
                                                   <option value="Hadir">Hadir</option>
                                                   <option value="Tidak hadir">Tidak hadir</option>
                                                 </select>
@@ -709,7 +708,7 @@
                                       </div>
                                       <!--.wdp-wrap-form-->
                                       <div id='wdp-comment-status-17775' class='wdp-comment-status'></div>
-                                      <ul id='wdp-container-comment-17775' style="display:block !important;" class='wdp-container-comments wdp-order-DESC ' data-order='DESC'></ul>
+                                      <ul id='wdp-container-comment-17775' style="display:block !important;" class='wdp-container-comments wdp-order-DESC' style="display:block !important;" data-order='DESC'></ul>
                                       <div class='wdp-holder-17775 wdp-holder'></div>
                                     </div>
                                     <!--.wdp-wrap-comments-->
@@ -1508,7 +1507,7 @@
 
           function refresh()
           {
-              firebase.database().ref('hermanselatestt').orderByKey().limitToLast(30).once('value').then(function(snapshot){
+              firebase.database().ref('hermansela').orderByKey().limitToLast(30).once('value').then(function(snapshot){
                   let results = [];
                   let res     = [];
                   snapshot.forEach(function(child) {
@@ -1518,9 +1517,9 @@
                       res = [...results].reverse()
                   })
 
-                  jQuery('#wdp-container-comment-17775').html('');
 
-                  jQuery(".total_ucapan").html(res.length)
+                  jQuery(".total_ucapan").html(res.length)     
+                  jQuery('#wdp-container-comment-17775').html('');                   
 
                   for (var i = 0; i < res.length; i++) {
                       tableShowMessage(res[i].key,res[i].value)
@@ -1541,7 +1540,7 @@
               e.preventDefault();
               e.stopPropagation();
               var author      = jQuery('#author');
-              var comments    = jQuery('#wdp-textarea-17775');
+              var comments    = jQuery('#comment');
               var konfirmasi  = jQuery('#konfirmasi');
 
               var data = JSON.parse( JSON.stringify({
@@ -1552,7 +1551,7 @@
               }))    
 
               // simpan data baru kedalam database
-              var newMessageKey = firebase.database().ref().child('hermanselatestt').push(data, function(error) {
+              var newMessageKey = firebase.database().ref().child('hermansela').push(data, function(error) {
                   if (error) {
                       alert('comments tidak dapat disimpan!');
                   } else {
