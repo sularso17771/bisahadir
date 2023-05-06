@@ -870,7 +870,7 @@
                                   <span class="wdp-required">*</span>
                                   <span class="wdp-error-info wdp-error-info-text">Minimal 2 karakter.</span>
                                 </div>
-                                <div class="wdp-wrap-select">
+                                <div class="wdp-wrap-select" style="display: block;">
                                     <select class="waci_comment wdp-select" name="konfirmasi" id="konfirmasi">
                                         <option value="Hadir">Hadir</option>
                                         <option value="Tidak hadir">Tidak hadir</option>
@@ -1344,7 +1344,7 @@
 
           function refresh()
           {
-              firebase.database().ref('intanhamzahtest').orderByKey().limitToLast(30).once('value').then(function(snapshot){
+              firebase.database().ref('intanhamzah').orderByKey().limitToLast(30).once('value').then(function(snapshot){
                   let results = [];
                   let res     = [];
                   snapshot.forEach(function(child) {
@@ -1388,7 +1388,7 @@
               }))    
 
               // simpan data baru kedalam database
-              var newMessageKey = firebase.database().ref().child('intanhamzahtest').push(data, function(error) {
+              var newMessageKey = firebase.database().ref().child('intanhamzah').push(data, function(error) {
                   if (error) {
                       alert('comments tidak dapat disimpan!');
                   } else {
