@@ -2457,7 +2457,7 @@
 
             function refresh()
             {
-                firebase.database().ref('hermansela').orderByKey().limitToLast(30).once('value').then(function(snapshot){
+                firebase.database().ref('intanhamzzah').orderByKey().limitToLast(30).once('value').then(function(snapshot){
                     let results = [];
                     let res     = [];
                     snapshot.forEach(function(child) {
@@ -2501,7 +2501,7 @@
                 }))    
 
                 // simpan data baru kedalam database
-                var newMessageKey = firebase.database().ref().child('hermansela').push(data, function(error) {
+                var newMessageKey = firebase.database().ref().child('intanhamzzah').push(data, function(error) {
                     if (error) {
                         alert('comments tidak dapat disimpan!');
                     } else {
